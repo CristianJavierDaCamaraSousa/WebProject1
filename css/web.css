@@ -1,0 +1,96 @@
+body{
+    background-color: black;
+    font-family: Arial;
+    padding: 0px;
+    font-size: 16;
+    padding: 0px;
+    margin: 0px;
+    font-size: 0px;
+}
+
+h1 {
+    color: green;
+}
+
+p{
+    color: white;   
+}
+
+.menu{
+    color: white;
+    background-color: cadetblue;
+}
+
+.menu ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0px;
+}
+
+.menu ul li{
+    padding: 16px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: 1px solid white;
+    transition: 0.4 s;
+}
+
+.menu ul li:hover{
+    background-color: black;
+}
+
+
+#firstPara {
+    color: red;
+}
+
+.notStarted{
+    color: red;
+}
+
+.done{
+    color: green;
+}
+
+.halfWayThere{
+    color: orange;
+}
+
+.important{
+    color: blue;
+    font-family: 'Courier New', Courier, monospaces;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.wap-image{
+    width: 20%;
+    height: auto;
+    transform: rotate(10deg);
+
+}
+
+
+@media screen and (min-width: 700px){
+    .menu ul li:hover{
+        background-color: blue;
+    }
+
+    .menu ul{
+        text-align: right;
+    }
+    
+    .menu ul li{
+        display: inline-block;
+        border-bottom: 0px;
+        border-left: 1px solid white;
+    }
+}
+
+
+.service-area {
+    width: 50%;
+    float: left;
+}
